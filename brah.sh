@@ -76,7 +76,7 @@ cd ~/tesstutorial
 --traineddata   ~/tesstutorial/brahmitraineng/eng/eng.traineddata \
 --model_output ~/tesstutorial/brahmilayer/brahmilayer.traineddata 
 
-cd ~/tesstutorial
+cd ~/tesstutorial/langdata/brah/test
 
-tesseract  ./brahmievaleng/eng.Noto_Sans_Brahmi.exp0.tif ./brahmievaleng/eng.Noto_Sans_Brahmi.exp0.brahmilayer -l brahmilayer --tessdata-dir ./brahmilayer
-
+tesseract  tam.Adinatha_Tamil_Brahmi.exp0.page1.png  tam.Adinatha_Tamil_Brahmi.exp0.page1.png.brahmilayer -l brahmilayer --tessdata-dir ../../../brahmilayer
+tesseract  dhamma.png  dhamma.brahmilayer -l brahmilayer --tessdata-dir ../../../brahmilayer
