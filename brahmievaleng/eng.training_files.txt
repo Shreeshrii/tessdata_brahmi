@@ -1,0 +1,2 @@
+/home/ubuntu/tesstutorial/brahmievaleng/eng.Adinatha_Tamil_Brahmi.exp0.lstmf
+/home/ubuntu/tesstutorial/brahmievaleng/eng.Noto_Sans_Brahmi.exp0.lstmf
